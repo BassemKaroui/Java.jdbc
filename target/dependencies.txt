@@ -1,0 +1,6 @@
+digraph "com.expleo:jdbc:jar:1.0" { 
+	"com.expleo:jdbc:jar:1.0" -> "junit:junit:jar:4.11:test" ; 
+	"com.expleo:jdbc:jar:1.0" -> "mysql:mysql-connector-java:jar:8.0.25:compile" ; 
+	"junit:junit:jar:4.11:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"mysql:mysql-connector-java:jar:8.0.25:compile" -> "com.google.protobuf:protobuf-java:jar:3.11.4:compile" ; 
+ } 
